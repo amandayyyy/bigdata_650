@@ -2,8 +2,7 @@ from pyspark.sql import SparkSession
 import random
 
 # Start Spark
-spark =
-SparkSession.builder.appName("SentenceGenerator").getOrCreate()
+spark = SparkSession.builder.appName("SentenceGenerator").getOrCreate()
 sc = spark.sparkContext
 
 # Word list
